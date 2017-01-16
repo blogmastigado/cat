@@ -1,0 +1,26 @@
+{
+    "name": "catframework",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7@stable",
+        "squizlabs/php_codesniffer": "dev-master"
+    },
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+            "name": "Blog Mastigado",
+            "site": "https://mastigado.wordpress.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "cat" : "vendor",
+            "app" : "/"
+        }
+    },    
+    "config": {
+        "bin-dir": "bin"
+    }
+}
